@@ -1,0 +1,93 @@
+
+      .text{
+        padding: 10px 10px 10px 10px;
+          color: aliceblue;
+          border: grey solid;
+      }
+      .texthead{
+        padding: 100px 100px 100px 100px;
+      }
+      .btn_color{
+        background: #16515B !important;
+        border: #16515B !important;
+      }
+      .b_pic{
+    background: url("background_pic.png") no-repeat; 
+background-size: cover;
+}
+.l_f_st{
+  background-color: white; 
+}
+#n{
+  text-align: center;
+}
+#error_msg{
+margin: 5px auto;
+width: 100%;
+height :30px;
+border:1px solid #16515B;
+background : #16515B;
+color: white;
+text-align : center;
+}
+#loginform{
+padding: 15px 15px 15px 15px; 
+}
+h1{
+  font-weight: 900;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #fff;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+
+.feather {
+  width: 16px;
+  height: 16px;
+  vertical-align: text-bottom;
+}
+
+/*
+ * Sidebar
+ */
+.sidecolor{
+  background-color: #222d32;
+  
+}
+.sidebar {
+ border-color:#16515B;
+ background-color: #222d32;
+}
+
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: .5rem;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+  .sidebar-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+}
+
+.sidebar .nav-link {
+  font-weight: 500;
+  color: #fff;
+}
+
+.sidebar .nav-link .feather {
+  margin-right: 4px;
+  color: #999;
+}
+.sidebar-heading {
+  font-size: .75rem;
+  text-transform: uppercase;
+}
