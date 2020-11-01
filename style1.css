@@ -1,0 +1,123 @@
+
+    	.menucolor{
+    		background-color: #16515B !important;
+      
+      }
+    	#sidebar{
+        text-align: center;
+        color: aliceblue;
+      }
+      .header{
+        background-color: white;
+      }
+      img{
+        max-width:180px;
+      }
+      .contentarea{
+       padding: 0px 0px 0px 0px ;
+       color: aliceblue;
+      }
+  
+      .text{
+        padding: 10px 10px 10px 10px;
+          color: aliceblue;
+          border: grey solid;
+      }
+      .texthead{
+        padding: 100px 100px 100px 100px;
+      }
+      .btn_color{
+        background: #16515B !important;
+        border: #16515B !important;
+      }
+      .b_pic{
+    background: url("images/background_pic.png") no-repeat; 
+background-size: cover;
+}
+.l_f_st{
+  background-color: white; 
+}
+#n{
+  text-align: center;
+}
+#error_msg{
+margin: 5px auto;
+width: 100%;
+height :30px;
+border:1px solid #16515B;
+background : #16515B;
+color: white;
+text-align : center;
+}
+#loginform{
+padding: 15px 15px 15px 15px; 
+}
+#contentdiv{
+  background-color: #16515B;
+}
+.topnav-right {
+  float: right;
+}
+h1{
+  font-weight: 900;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #16515B;;
+  text-transform: uppercase;
+  color: #16515B;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.feather {
+  width: 16px;
+  height: 16px;
+  vertical-align: text-bottom;
+}
+
+/*
+ * Sidebar
+ */
+
+.sidebar {
+ border-color:#16515B;
+}
+
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: .5rem;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+  .sidebar-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+}
+
+.sidebar .nav-link {
+  font-weight: 500;
+  color: #333;
+}
+
+.sidebar .nav-link .feather {
+  margin-right: 4px;
+  color: #999;
+}
+
+.sidebar .nav-link.active {
+  color: #007bff;
+}
+
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+  color: inherit;
+}
+
+.sidebar-heading {
+  font-size: .75rem;
+  text-transform: uppercase;
+}
